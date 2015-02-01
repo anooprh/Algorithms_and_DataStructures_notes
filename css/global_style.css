@@ -1,0 +1,18 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+
+#central_content {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #66ffff;
+}
+
+div {
+    padding-left : 10px;
+    padding-right : 10px;
+    border-radius: 2px;
+}

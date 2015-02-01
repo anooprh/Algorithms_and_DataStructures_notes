@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/global_style.css"/>
+    <title>Trees</title>
+</head>
+<body>
+<div id="container">
+    <div id="central_content">
+        <h1>Tree</h1>
+
+        <div class="paragraph">
+            <h3>Interpretation</h3>
+
+            <p>A Tree ADT can be represented in two ways</p>
+            <ul>
+                <li>Tree Data structure(in practice, this is the most ,most common implementation)</li>
+                <li>Array Data structure</li>
+                <li>... I have no idea how many else are there !!</li>
+            </ul>
+            <p>Whenever we do not specify exactly what a Tree is, and just refer to it as a "Tree", we mean the Tree
+                Data
+                structure representation of the Tree ADT. Also in practice, most(but not all) Tree ADT are implemented
+                using the Tree Data structure. Hence they essentially mean the same, but it is important to keep the
+                above
+                points mind before we proceed further.
+            </p>
+
+        </div>
+
+        <div class="paragraph">
+            <h3>Tree as Abstract Data Type</h3>
+
+            <p> A Tree Abstract Data Type is a collection of elements, with one of them being designated as the root and
+                hierarchically related to collection sub elements, which themselves are trees. Collection here means any
+                number of elements, be it 0 element(s), 1 element(s) or any number of positive elements.
+            </p>
+
+
+            <p> The collection of sub elements referred above are sub trees, and the roots of those sub trees are
+                referred to as the children of the root. In general, any element in a tree is referred to as a node, and
+                the roots of sub trees hierarchically related to this node are referred to as children of the node.
+                Convenient definition is based on hierarchical relation i.e nodes, one level below in the hierarchy are
+                referred to as children, conversely, the node immediately one level up the hierarchy is called the
+                parent node.
+            </p>
+
+            <p>
+                The property of tree prohibits the node from having two parents, forming cycles in the hierarchy and
+                enforces uni-directionality in the hierarchy enforcement.
+            </p>
+
+            <p>
+                This is a generic definition of tree, before we proceed to specific trees as lot of literature does not
+                distinguish between a tree and binary tree and co.
+            </p>
+
+            <p>Consider an example</p>
+
+            <img src="http://placehold.it/500x300&text=Figure:TreeExample1" alt="Tree Example 1"/>
+
+            <p>Consider some more examples which are trees</p>
+            <img src="http://placehold.it/500x300&text=Figure:TreeExample2" alt="Tree Example 2"/>
+            <img src="http://placehold.it/500x300&text=Figure:TreeExample3" alt="Tree Example 3"/>
+
+            <p>Consider examples which are not trees</p>
+            <img src="http://placehold.it/500x300&text=Figure:TreeExample4" alt="Tree Example 4"/>
+            <img src="http://placehold.it/500x300&text=Figure:TreeExample5" alt="Tree Example 5"/>
+
+            <p>In our examples so far we have seen that all elements are distinct, but for now, we assume that all
+                elements in a tree are distinct. The techniques multiple copies of an element is deferred for a
+                while</p>
+
+            <p>Also, we see that a Tree is specific case of a Undirected Graph in which any two vertices are connected
+                by only one path.</p>
+
+            <p>As mentioned earlier, the Tree ADT can be represented in two ways, Tree Data structure, Array Data
+                structure.</p>
+
+            <h5>Tree using Tree Data Structure</h5>
+            <h5>Tree using Array Data Structure</h5>
+        </div>
+
+
+    </div>
+</div>
+</body>
+</html>
